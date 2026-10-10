@@ -1,20 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pagina web</title>
+    <title>Mi página web</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
+
 <body>
-     <h1 class="Titulo"> Hola Mundo</h1>
 
-     <p>soy un parrafo</p>
+    <!-- MENÚ -->
+    <header>
+        <nav>
+            <h2>Mi Página</h2>
 
-     <img src="images/image.jpeg" width="500px" alt="500px">
-    
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-     <script src="script.js"></script>
+
+    <!-- INICIO -->
+    <section id="inicio" class="inicio">
+
+        <div>
+            <h1>Hola, soy Jordi</h1>
+
+            <p>
+                Bienvenido a mi página web.
+                Aquí podrás conocer un poco más sobre mí.
+            </p>
+
+            <button>Conocer más</button>
+        </div>
+
+        <img src="images/image.jpeg" alt="Imagen personal">
+
+    </section>
+
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi" class="seccion">
+
+        <h2>Sobre mí</h2>
+
+        <p>
+            Soy estudiante de Ingeniería de Sistemas.
+            Me interesa la tecnología, el desarrollo web
+            y las redes informáticas.
+        </p>
+
+    </section>
+
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="seccion">
+
+        <h2>Mis habilidades</h2>
+
+        <div class="tarjetas">
+
+            <div class="tarjeta">
+                <h3>HTML</h3>
+                <p>Creación de páginas web.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>CSS</h3>
+                <p>Diseño y estilos para páginas web.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>JavaScript</h3>
+                <p>Interactividad y funciones para sitios web.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="seccion">
+
+        <h2>Contacto</h2>
+
+        <p>¿Quieres comunicarte conmigo?</p>
+
+        <button>Contáctame</button>
+
+    </section>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+
+        <p>© 2026 Mi Página Web - Todos los derechos reservados</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
